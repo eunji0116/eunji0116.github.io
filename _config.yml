@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-theme-so-simple
 locale: en-US
 title: "Data Rookie Diary"
 description: "Personal logs of learning data analysis and visualization"
@@ -54,7 +53,7 @@ paginate: 10
 paginate_path: /page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
 category_archive_path: "/categories/#"
