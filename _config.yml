@@ -20,7 +20,7 @@ title: "Data Rookie Diary"
 description: "Personal logs of learning data analysis and visualization"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://eunji0116.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
