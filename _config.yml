@@ -51,17 +51,23 @@ paginate: 10
 paginate_path: /page:num/
 
 # Search
-search_full_content: true # can have performance implications for large sites
+search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -71,18 +77,18 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
       share: true
 
 # Site Author
 author:
-  name:
+  name: Eunji Lee
   picture:
   email:
-  twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: GitHub
+      url: https://github.com/eunji0116
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
