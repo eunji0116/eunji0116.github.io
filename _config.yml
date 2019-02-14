@@ -42,6 +42,9 @@ liquid:
 
 # Build settings
 permalink: /:categories/:title/
+gems:
+  - jemoji
+  - jekyll-paginate
 markdown: kramdown
 feed:
   path: atom.xml
